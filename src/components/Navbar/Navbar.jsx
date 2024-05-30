@@ -1,14 +1,25 @@
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <nav>
       <ul>
-        <li>All</li>
-        <li>Full Stack Development</li>
-        <li>Data Science</li>
-        <li>Cyber Security</li>
-        <li>Career</li>
+        <li>
+          <Link to="/all">All</Link>
+        </li>
+        <li>
+          <Link to="/fsd">Full Stack Development</Link>
+        </li>
+        <li>
+          <Link to="/data-science">Data Science</Link>
+        </li>
+        <li>
+          <Link to="/cyber-security">Cyber Security</Link>
+        </li>
+        <li>
+          <Link to="/careers">Career</Link>
+        </li>
       </ul>
     </nav>
   );
