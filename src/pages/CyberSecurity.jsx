@@ -1,8 +1,7 @@
 import Card from "../components/Card/Card";
-import { data } from "../data/fsd";
+import { data } from "../data/cyberSecurity";
 import "../App.css";
-
-const FullStackDev = () => {
+const CyberSecurity = () => {
   return (
     <div className="card-container">
       {data.map((data, index) => {
@@ -12,4 +11,4 @@ const FullStackDev = () => {
   );
 };
 
-export default FullStackDev;
+export default CyberSecurity;

@@ -1,8 +1,8 @@
 import Card from "../components/Card/Card";
-import { data } from "../data/fsd";
+import { data } from "../data/dataScience";
 import "../App.css";
 
-const FullStackDev = () => {
+const DataScience = () => {
   return (
     <div className="card-container">
       {data.map((data, index) => {
@@ -12,4 +12,4 @@ const FullStackDev = () => {
   );
 };
 
-export default FullStackDev;
+export default DataScience;

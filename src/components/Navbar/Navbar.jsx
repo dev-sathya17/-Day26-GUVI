@@ -6,19 +6,29 @@ const Navbar = () => {
     <nav>
       <ul>
         <li>
-          <Link to="/all">All</Link>
+          <Link className="link" to="/courses/all">
+            All
+          </Link>
         </li>
         <li>
-          <Link to="/fsd">Full Stack Development</Link>
+          <Link className="link" to="/courses/fsd">
+            Full Stack Development
+          </Link>
         </li>
         <li>
-          <Link to="/data-science">Data Science</Link>
+          <Link className="link" to="/courses/data-science">
+            Data Science
+          </Link>
         </li>
         <li>
-          <Link to="/cyber-security">Cyber Security</Link>
+          <Link className="link" to="/courses/cyber-security">
+            Cyber Security
+          </Link>
         </li>
         <li>
-          <Link to="/careers">Career</Link>
+          <Link className="link" to="/courses/careers">
+            Career
+          </Link>
         </li>
       </ul>
     </nav>

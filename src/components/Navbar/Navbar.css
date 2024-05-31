@@ -19,9 +19,17 @@ li {
   padding-bottom: 45px;
 }
 
+.link {
+  all: unset;
+}
+
 li:hover {
   color: #0dba4b;
   border-bottom: 3px solid #0dba4b;
+
+  .link {
+    background-color: rgb(245, 245, 245);
+  }
 }
 
 .active {
