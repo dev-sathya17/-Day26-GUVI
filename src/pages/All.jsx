@@ -6,7 +6,6 @@ import "../App.css";
 
 const All = () => {
   const data = [...fsd, ...cyberSec, ...dsData];
-  console.log(data);
 
   return (
     <div className="card-container">
